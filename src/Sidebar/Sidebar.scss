@@ -1,0 +1,23 @@
+@import 'styles/colors';
+.sidebar {
+    display: flex;
+    flex: 0.35;
+    background-color: blue;
+    flex-direction: column;
+}
+.sidebar__header{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    padding: 0.8rem;
+    background-color: $whats-app-background-gray;
+    .sidebar__headerRight{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        .MuiSvgIcon-root{
+            // margin-right: 1rem;
+            color: gray;
+        }
+    }
+}

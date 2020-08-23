@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.scss';
+import Sidebar from './Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>WhatsApp Clone App</h1>
-      <p>Comming Soon ...</p>
+    <div className="app">
+      <div className="app_body">
+        <Sidebar />
+        {/* Chat */}
+      </div>
     </div>
   );
 }
