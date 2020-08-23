@@ -1,0 +1,35 @@
+@import 'styles/colors';
+.sidebarMessage{
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    .sidebarMessage__message{
+        flex: 1;
+        padding-left: 0.3rem;
+        h3{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .sidebarMessage__time{
+        text-align: right;
+        p{
+            font-size: 12px;
+        }
+        .sidebarMessage__expand{
+            color: white;
+        }
+    }
+}
+.sidebarMessage:hover{
+    cursor: pointer;
+    background-color: $whats-app-background-light-gray;
+    .sidebarMessage__time{
+        .sidebarMessage__expand{
+            color: gray;
+        }
+    }
+}
