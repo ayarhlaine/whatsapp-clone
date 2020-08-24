@@ -1,0 +1,49 @@
+@import 'styles/colors';
+.welcomeScreen{
+    background-color: $whats-app-background-gray;
+    display: grid;
+    flex: 0.65;
+    place-items: center;
+    .welcomeScreenContainer{
+        text-align: center;
+        img {
+            width: 180px;
+            object-fit: contain;
+        }
+        .welcomeScreen__headerText{
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+        .welcomeScreen__text{
+            margin-top: 1rem;
+            font-weight: 100;
+            color: gray;
+            span {
+                color: $whats-app-green-color;
+            }
+        }
+        hr {
+            margin-top: 2rem;
+            border: none;
+            height: 1px;
+            background-color: lightgray;
+        }
+        .welcomeScreen__originalSiteLinkContainer{
+            margin-top: 1rem;
+            .welcomeScreen__originalSiteLink{
+                display: flex;
+                font-size: 14px;
+                align-items: center;
+                justify-content: center;
+                color: gray;
+                .MuiSvgIcon-root{
+                    margin-right: 0.2rem;
+                }
+                a {
+                    text-decoration: none;
+                    color: $whats-app-green-color;
+                }
+            }
+        }
+    }
+}
