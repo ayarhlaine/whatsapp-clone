@@ -1,0 +1,26 @@
+@import 'styles/colors';
+.chatMessage{
+    padding: 0 30px;
+    .chatMessage__container{
+        position: relative;
+        background-color: white;
+        width: fit-content;
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        .chatMessage__senderName{
+            position: absolute;
+            font-size: xx-small;
+            font-weight: 800;
+            top: -12px;
+        }
+        .chatMessage__time{
+            font-size: xx-small;
+            margin-left: 10px;
+        }
+    }
+    .chat__receiver{
+        margin-left: auto;
+        background-color: $whats-chat-message-background-green-color;
+    }
+}

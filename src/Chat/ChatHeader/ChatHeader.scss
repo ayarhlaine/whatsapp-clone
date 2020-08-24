@@ -3,8 +3,22 @@
     display: flex;
     padding: 0.8rem;
     background-color: $whats-app-background-gray;
-    justify-content: space-between;
+
     .chatHeader__info{
-        width: 50%;
+        flex: 1;
+        padding-left: 1rem;
+        h3{
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        p{
+            color: gray;
+            font-size: small;
+        }
+    }
+    .chatHeader__icons{
+        display: flex;
+        justify-content: space-between;
+        min-width: 100px;
     }
 }
