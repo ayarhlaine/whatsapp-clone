@@ -11,6 +11,34 @@ function ChatBody() {
             <ChatMessage receiver/>
             <ChatMessage />
             <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
+            <ChatMessage />
+            <ChatMessage receiver/>
         </div>
     )
 }
