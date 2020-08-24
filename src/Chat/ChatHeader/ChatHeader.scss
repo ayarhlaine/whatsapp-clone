@@ -1,0 +1,10 @@
+@import 'styles/colors';
+.chatHeader{
+    display: flex;
+    padding: 0.8rem;
+    background-color: $whats-app-background-gray;
+    justify-content: space-between;
+    .chatHeader__info{
+        width: 50%;
+    }
+}
